@@ -102,9 +102,21 @@ textarea {
  
   }
 
-h1, h2, h3, h4, p {
+h1 h3{
   margin: 0;
   }
+
+h2 {
+  margin: 0px 0px 10px 0px;
+}
+
+h4 {
+  margin: 0px 0px 15px 0px;
+}
+
+p {
+  margin: 20px 0px 0px 0px
+}
 
 /*-------Base Header - Footer Styles---------*/
 
@@ -117,7 +129,7 @@ footer {
 }
 
 header {
-  padding: 15px 0;
+  padding: 0px;
 }
 
 header .content-wrapper {
@@ -126,6 +138,7 @@ header .content-wrapper {
   align-items: flex-start;
   flex-flow: row wrap;
   width:80%;
+  margin: 20px 0px 20px 0px;
 }
 
 header .header-divider {
@@ -184,6 +197,10 @@ footer .copyright {
   margin: 20px 0;
 }
 
+footer p {
+  margin: 0px;
+}
+
 /*-----Home Page Main Styles------*/
 
 .hero-area {
@@ -193,7 +210,6 @@ footer .copyright {
   flex-flow: row wrap;
   width: 90%;
 }
-
 
 /*------Aside Styles-----*/
 
@@ -217,7 +233,7 @@ aside {
 }
 
 .features article {
-  width: 50%;
+  width: 55%;
   margin: 30px 0;
 }
 
@@ -229,7 +245,7 @@ aside {
 }
 
 .features p {
-  margin: 0;
+  margin: 0px;
 }
 
 /*------------Reviews Section-------------*/
@@ -254,16 +270,18 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  margin: 45px 0px 45px 0px;
 }
 .contact-section {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  margin: 50px 0px 50px 0px;
 }
 
 .contact-content p {
-  margin: 0;
+  margin: 0px 0px 10px 0px;
 }
 /*------ FAQ Page Main Styles-------*/
 
@@ -279,24 +297,16 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  margin: 50px 0 0 0;
+  margin: 50px 0 50px 0px;
 }
 
 .faq h2 {
-  margin-bottom: 45px;
+  margin-bottom: 25px;
 }
 
 .faq-content {
-  margin-bottom: 50px;
+  margin: 20px 0px 45px 0px;
 }
-
-/* ==========================================================================
-   Helper classes
-   ========================================================================== */
-
-/*
- * Hide visually and from screen readers
- */
 
 .hidden {
   display: none !important;
