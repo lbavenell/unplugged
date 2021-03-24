@@ -180,6 +180,7 @@ footer .contact {
 
 footer .content-wrapper {
   width: 55%;
+  margin: 100px 0;
 }
 
 footer .social {
@@ -253,7 +254,7 @@ aside {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-flow: wrap;
+  flex-flow: row wrap;
 }
 
 .reviews h2 {
@@ -395,12 +396,9 @@ aside {
 
 /*------Header and Footer----------*/
 header .content-wrapper {
-  display: flex;
-  justify-content: space-around;
-  align-items: flex-start;
   flex-flow: row nowrap;
-  width:85%;
-  margin: 65px 0px 65px 0px;
+  width:80%;
+  margin: 20px 0px 20px 0px;comm
 }
 
 header nav ul {
@@ -417,11 +415,6 @@ aside .content-wrapper {
   flex-flow: column nowrap;
 }
 
-header .content-wrapper {
-  flex-flow: row nowrap;
-  width:80%;
-  margin: 20px 0px 20px 0px;
-}
 
 .hero-area {
   flex-flow: row nowrap;
@@ -436,13 +429,14 @@ header .content-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 
-.reviews {
+.reviews .content-wrapper {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-  flex-flow: nowrap;
+  flex-flow: row wrap;
 }
 
 .reviews h2 {
@@ -452,30 +446,31 @@ header .content-wrapper {
 
 article {
   width: 40%;
-  
 }
 
 /*--------Footer Styles--------*/
 
-footer .footer-content {
- 
-  width: 100%;
-}
-
-footer .contact {
-  margin-bottom: 50px;
-  width: 50%;
-}
 
 footer .content-wrapper {
   width: 100%;
-  flex-flow: row nowrap;
+  margin: 100px 0;
 }
 
-footer .social {
-  margin-bottom: 50px;
+.footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+footer .contact {
+  margin-bottom: 0;
+}
+
+footer .copyright {
   width: 50%;
 }
+
 
 
 }
