@@ -395,10 +395,17 @@ aside {
 
 
 /*------Header and Footer----------*/
+
+header {
+  justify-content: center;
+}
+
+
 header .content-wrapper {
   flex-flow: row nowrap;
+  justify-content: space-around;
   width:80%;
-  margin: 20px 0px 20px 0px;comm
+  margin: 20px 0px 20px 0px;
 }
 
 header nav ul {
@@ -421,6 +428,11 @@ aside .content-wrapper {
 }
 
 .features article {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-flow: row nowrap;
+  flex-basis: 190px;
   width: 25%;
   margin: 20px 65px 20px 65px;
 }
@@ -428,7 +440,6 @@ aside .content-wrapper {
 .reviews article {
   display: flex;
   justify-content: center;
-  align-items: center;
 
 }
 
@@ -458,7 +469,7 @@ footer .content-wrapper {
 
 .footer-content {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   flex-flow: row wrap;
 }
@@ -468,64 +479,60 @@ footer .contact {
 }
 
 footer .copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 50%;
+  margin: 0px 250px;
+}
+
+/*----------FAQ Page----------*/
+
+.faq-content {
+  flex-basis: 40%;
 }
 
 
-
-}
-
-@media only screen and (min-width: 1200px) {
-  /*Desktop styles here*/
-
-
-.content-wrapper {
-
-  max-width: 960px;
-}
-
-.hero-area h1 {
-  width:
-}
-
-aside .content-wrapper {
-  justify-content: flex-start;
-}
-
-aside .content-wrapper .form-description, aside .content-wrapper .form {
-  width:
-}
-
-.features h2 {
-  width: 670px;
-}
-
-.features article {
-  flex-basis:
-}
-
-.reviews article div {
-  width:
-}
-
-.mission h2, .contact-section .content-wrapper h2 {
-  width:
-}
-
-.contact-section .content-wrapper h2 {
-  margin-bottom:
+.faq .content-wrapper {
+  justify-content: space-between;
 }
 
 .faq h2 {
   width: 100%;
 }
 
-.faq-content {
-  flex-basis:
-}
 
 
+
+/*----------About Page----------*/
+
+.mission-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
 }
+
+.mission-content p {
+  width: 40%;
+}
+
+.contact-section .content-wrapper  h2 {
+  width: 65%;
+}
+
+.contact-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+}
+
+@media only screen and (min-width: 1200px) {
+  /*Desktop styles here*/
+
+}
+
 
 
 /* ==========================================================================
