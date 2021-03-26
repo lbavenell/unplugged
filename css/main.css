@@ -98,6 +98,68 @@ textarea {
    ========================================================================== */
 
 /* Base */
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+}
+
+ul, 
+ol {
+  font-size: 1.125em;
+  line-height: 1em;
+
+}
+
+a {
+  color: #e2e3ed;
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 1.875em;
+  line-height: 1.625em;
+  font-family: 'Poppins', sans-serif;
+}
+
+h3, 
+h4 {
+  font-size: 1.125em;
+  line-height: 1.625em;
+  font-family: 'Poppins', sans-serif;
+}
+
+p {
+  font-size: 0.875em;
+  line-height: 1.4375em;
+}
+
+img {
+
+}
+
+figure {
+
+}
+
+address {
+  font-style: normal;
+}
+address h4 {
+  font-size: 1.125em;
+  line-height: 4em;
+}
+
+address p{
+  font-size: 0.875em;
+  line-height: 2.125em;
+}
+
+
 .content-wrapper {
  max-width: 90%;
  margin: 50px 0;
