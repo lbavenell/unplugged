@@ -106,6 +106,7 @@ html {
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 1em;
+  color: #e2e3ed;
 }
 
 ul, 
@@ -170,6 +171,34 @@ h1, h2, h3, h4, ul, li{
   padding: 0;
   margin: 0;
 }
+
+aside .form {
+  margin-top: 30px;
+}
+ 
+input[type=text] {
+  box-sizing: border-box;
+  width: 100%;
+  color: #2a423a;
+  font-style: italic;
+  padding: 1em;
+}
+ 
+input[type=button] {
+  width: 100%;
+  padding: 20px 0;
+  margin-top: 20px;
+  background-color: #2a423a;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 1.125em;
+  color: #e2e3ed;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
 /* Header - Footer Styles */
 
 header,
@@ -181,6 +210,7 @@ footer {
 }
 
 header {
+  background-color: #202322;
   padding: 15px 0;
 }
 
@@ -210,15 +240,20 @@ header nav ul {
   display: flex;
   justify-content: space-around;
   list-style-type: none;
+  text-transform: uppercase;
+  font-weight: bold;
   width: 100%;
 }
 
 footer {
   flex-direction: column nowrap;
+  background-color: #202322;
+  text-align: center;
 }
 
 footer p {
   margin: 0;
+
 }
 
 footer .content-wrapper {
@@ -234,6 +269,7 @@ footer .social-icons {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  background-color: #527158;
 }
 
 footer .social-icons p {
@@ -264,6 +300,9 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #527158;
+ 
+  font-weight: normal;
 }
 
 /* Home Features */
@@ -272,6 +311,7 @@ aside {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  
 }
 
 .features h2 {
@@ -299,6 +339,7 @@ aside {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background-color: #2a423a;
 }
 
 .reviews h2 {
@@ -316,6 +357,7 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #527158;
 
 }
 .contact-section {
@@ -323,7 +365,7 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-
+  background-color: #2a423a;
 }
 
 .contact-content p {
@@ -336,6 +378,7 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #527158;
 }
 
 .faq .content-wrapper {
