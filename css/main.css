@@ -277,13 +277,21 @@ footer .social-icons {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #527158;
 }
 
 footer .social-icons p {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+footer .social-icons i {
+  font-size: 2.35em;
+  line-height: 2em;
+  color: #527158;
+  border-radius: 150px;
+  width: 0.08%;
+  height: 0.08%;
 }
 
 footer .copyright {
