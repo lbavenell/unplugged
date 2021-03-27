@@ -140,11 +140,11 @@ p {
 }
 
 img {
-
+  width: 100%;
 }
 
 figure {
-
+  margin: 0;
 }
 
 address {
@@ -214,6 +214,14 @@ header {
   padding: 15px 0;
 }
 
+header figure {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
 header .content-wrapper {
   display: flex;
   justify-content: center;
@@ -278,18 +286,25 @@ footer .social-icons p {
   align-items: center;
 }
 
-
 footer .copyright {
   margin: 20px 0;
 }
-
-
 
 /* Home hero */
 
 .hero-area {
   display: flex;
   justify-content: center;
+  flex-flow: row wrap;
+  background: url("../img/hero.jpg") center no-repeat #333;
+  background-size: cover;
+}
+
+.hero-area figure {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   flex-flow: row wrap;
 }
 
@@ -301,7 +316,6 @@ aside {
   align-items: center;
   flex-flow: row wrap;
   background-color: #527158;
- 
   font-weight: normal;
 }
 
@@ -311,7 +325,8 @@ aside {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-  
+  background: url('../img/features.jpg') center no-repeat #333;
+  background-size: cover;
 }
 
 .features h2 {
@@ -349,6 +364,14 @@ aside {
 .reviews h3 {
   width: 55%;
   margin: 20px 0;
+}
+
+.reviews figure {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 /* About Page */
@@ -490,6 +513,10 @@ aside {
 header {
   justify-content: space-around;
   padding: 33px 0;
+}
+
+header figure {
+  width: 27%;
 }
 
 header .content-wrapper {
