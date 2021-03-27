@@ -630,6 +630,10 @@ footer .copyright {
 
 /* Tablet About page */
 
+.map figure {
+  padding-bottom: 45%;
+}
+
 .mission-content {
   display: flex;
   justify-content: space-between;
@@ -692,6 +696,10 @@ aside .content-wrapper .form-description, aside .content-wrapper .form {
 }
 
 /* About page */
+
+.map figure {
+  padding-bottom: 38%;
+}
 
 .mission h2, .contact-section .content-wrapper h2 {
   width: 90%;
