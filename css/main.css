@@ -121,17 +121,28 @@ a {
   text-decoration: none;
 }
 
+h1 {
+  font-size: 2.25em;
+  font-family: 'Popins', Helvetica, Arial, Sans-serif;
+  font-weight: 500;
+  line-height: 1.2em;
+
+}
+
 h2 {
   font-size: 1.875em;
   line-height: 1.625em;
-  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-family: 'Popins', Helvetica, Arial, Sans-serif;
 }
 
 h3, 
 h4 {
   font-size: 1.125em;
   line-height: 1.625em;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Popins', Helvetica, Arial, Sans-serif;
+  font-weight: 500;
+  margin: 20px 0;
 }
 
 p {
@@ -145,6 +156,7 @@ img {
 
 figure {
   margin: 0;
+  padding: 0;
 }
 
 address {
@@ -160,6 +172,10 @@ address p{
   line-height: 2.125em;
 }
 
+article {
+  margin: 0;
+  padding: 0;
+}
 
 .content-wrapper {
  max-width: 90%;
@@ -261,7 +277,6 @@ footer {
 
 footer p {
   margin: 0;
-
 }
 
 footer .content-wrapper {
@@ -306,6 +321,8 @@ footer .copyright {
   flex-flow: row wrap;
   background: url("../img/hero.jpg") center no-repeat #333;
   background-size: cover;
+  background-position: center;
+  min-height: 500px;
 }
 
 .hero-area figure {
@@ -325,6 +342,10 @@ aside {
   flex-flow: row wrap;
   background-color: #527158;
   font-weight: normal;
+}
+
+aside h3 {
+  margin: 20px 0;
 }
 
 /* Home Features */
@@ -354,6 +375,7 @@ aside {
 }
 
 .features p {
+  text-align: center;
   margin: 0;
 }
 
@@ -375,12 +397,12 @@ aside {
 }
 
 .reviews figure {
-  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
 }
+
 
 /* About Page */
 
@@ -533,6 +555,15 @@ aside {
 
 @media only screen and (min-width: 768px) {
 /*-----------Tablet styles here----------*/
+h2 {
+  font-size: 2.25em;
+  line-height: 1.333em;
+}
+
+h3 {
+  font-size: 1.5em;
+  line-height: 1.25;
+}
 
 .content-wrapper {
   max-width: 640px;
@@ -568,6 +599,13 @@ header nav ul {
 }
 
 /* Tablet hero area */
+
+.hero-area h1{
+  font-size: 3em;
+  line-height: 1;
+  margin: 0;
+}
+
 /* tablet aside */
 
 aside .content-wrapper {
@@ -599,10 +637,25 @@ aside .content-wrapper .form-description,
 
 /* Tablet reviews */
 
+.reviews h2 {
+  width: 85%;
+  margin-bottom: 40px;
+  line-height: 1;
+  font-size: 2.25em;
+}
+
 .reviews article {
   display: flex;
   justify-content: space-between;
+}
+
+.reviews article figure, .reviews article div {
   width: 49%;
+}
+
+.reviews h3 {
+  width: 75%;
+  margin: 0;
 }
 
 /* Tablet footer */
@@ -618,7 +671,8 @@ footer .content-wrapper {
   align-items: center;
 }
 
-footer .contact {
+footer .contact, footer .social {
+  width: 45%;
   margin-bottom: 0;
 }
 
@@ -626,6 +680,12 @@ footer .copyright {
   display: flex;
   justify-content: center;
   width: 100%;
+}
+
+footer .social-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 /* Tablet FAQ page */
@@ -673,10 +733,23 @@ footer .copyright {
 @media only screen and (min-width: 1200px) {
   /*---------- Desktop styles here ----------*/
 
+h2 {
+  margin: 30px 0px 40px 0px;
+  font-size: 2.25em;
+}
+
+h3, h4 {
+  font-size: 1.875em;
+}
+
+p {
+  font-size: 1.125em;
+  line-height: 1.333em;
+}
+
 .content-wrapper {
   max-width: 960px;
 }
-
 
 /* Desktop homepage hero */
 
@@ -705,11 +778,14 @@ aside .content-wrapper .form-description, aside .content-wrapper .form {
 
 /* Desktop homepage reviews */
 
-.reviews article {
-  width: 40%;
+
+
+.reviews article figure, .reviews article div {
+  padding-bottom: 0;
 }
 
-/* About page */
+
+/* Desktop About page */
 
 .map figure {
   padding-bottom: 38%;
@@ -719,18 +795,28 @@ aside .content-wrapper .form-description, aside .content-wrapper .form {
   width: 90%;
 }
 
-/* FAQ page */
+/* Desktop FAQ page */
 
 .faq h2 {
   width: 100%;
 
 }
 
+/* Desktop footer */
 
+footer h4 {
+  font-size: 1.5em;
+  margin-bottom: 40px;
+}
 
+footer p {
+  line-height: 1.285;
+  margin: 0;
+}
 
-
-
+address p {
+  font-size: 1em;
+}
 
 }
 
