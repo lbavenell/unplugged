@@ -164,7 +164,7 @@ address {
 }
 address h4 {
   font-size: 1.125em;
-  line-height: 4em;
+  line-height: 3.5em;
 }
 
 address p{
@@ -680,7 +680,7 @@ footer .content-wrapper {
 }
 
 footer .contact, footer .social {
-  width: 45%;
+  width: 25%;
   margin-bottom: 0;
 }
 
@@ -703,6 +703,7 @@ footer .social-icons {
 }
 
 .faq .content-wrapper {
+  margin: 100px 0;
   justify-content: space-between;
 }
 
@@ -813,6 +814,11 @@ aside .content-wrapper .form-description, aside .content-wrapper .form {
 /* Desktop footer */ 
 
 footer h4 {
+  font-size: 1.65em;
+  margin-bottom: 0;
+}
+
+footer h4 {
   font-size: 1.5em;
   margin-bottom: 40px;
 }
@@ -824,6 +830,7 @@ footer p {
 
 address p {
   font-size: 1em;
+  line-height: 2.125em;
 }
 
 }
