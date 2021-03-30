@@ -164,7 +164,7 @@ address {
 }
 address h4 {
   font-size: 1.125em;
-  line-height: 3.5em;
+  line-height: 1.825em;
 }
 
 address p{
@@ -280,7 +280,7 @@ footer p {
 }
 
 footer .content-wrapper {
-  width: 55%;
+  width: 56%;
   margin: 50px 0;
 }
 
@@ -311,6 +311,7 @@ footer .social-icons i {
 
 footer .copyright {
   margin: 20px 0;
+  width: 100%;
 }
 
 /* Home hero */
@@ -447,9 +448,9 @@ aside h3 {
 }
 
 address p {
-  line-height: 2.125em;
+  font-size: 1.125em;
+  line-height: 1.1em;
 }
-
 
 /*------ FAQ Page -------*/
 
